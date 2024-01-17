@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/Tablero.css';
-import Cuadro from './Cuadro.js';
+import Cuadro from './Cuadro';
 
 function Tablero({ cuadros, onClick }) {
     function renderizarCuadro(i) {
